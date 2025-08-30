@@ -6,9 +6,7 @@ The purpose of this repo is to document my learning process in **embedded system
 ⚡ **Note:** All projects in this repository are implemented **exclusively using the Hardware Abstraction Layer (HAL)**.  
 - No Arduino framework.  
 - No ESP-IDF high-level drivers.  
-- Only HAL APIs, to stay close to the hardware while keeping the code portable and structured.  
-
----
+- Only HAL APIs, to stay close to the hardware while keeping the code portable and structured.
 
 ## Projects  
 
@@ -33,8 +31,6 @@ The purpose of this repo is to document my learning process in **embedded system
   - Driving a 7-segment display using HAL.  
   - Basic counter logic.  
 
----
-
 ## Hardware  
 
 - **Board:** ESP32-S3-DevKitC-1-N8R8  
@@ -43,14 +39,10 @@ The purpose of this repo is to document my learning process in **embedded system
   - External single-digit 7-segment display  
   - Tactile push button  
 
----
-
 ## Repository Structure  
 
 /blinky -> NeoPixel smooth transition using Tx channel (manual pulse construction, HAL only)
 /segment -> 7-segment display counter with button input (HAL only)
-
----
 
 ## Getting Started  
 
@@ -58,8 +50,6 @@ The purpose of this repo is to document my learning process in **embedded system
    ```bash
    git clone https://github.com/your-username/esp32s3-projects.git
    cd esp32s3-projects
-
----
 
 # Why HAL?
 
@@ -69,8 +59,6 @@ The Hardware Abstraction Layer (HAL) is used exclusively in this project to:
 - Improve portability → HAL APIs are consistent across chips and frameworks.
 - Enhance learning → focusing on how peripherals work under the hood, instead of relying on prebuilt drivers.
 - Avoid hidden complexity → HAL provides predictability, making it easier to debug and understand behavior.
-
----
 
 # Goals
 

@@ -48,8 +48,8 @@ The purpose of this repo is to document my learning process in **embedded system
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/esp32s3-projects.git
-   cd esp32s3-projects
+   git clone [https://github.com/Jatinchhabra21/ESP32.git](https://github.com/Jatinchhabra21/ESP32)
+   cd ESP32
 
 # Why HAL?
 

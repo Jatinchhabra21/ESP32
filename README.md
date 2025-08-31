@@ -48,7 +48,7 @@ The purpose of this repo is to document my learning process in **embedded system
 
 1. Clone this repository:  
    ```bash
-   git clone [https://github.com/Jatinchhabra21/ESP32.git](https://github.com/Jatinchhabra21/ESP32)
+   git clone https://github.com/Jatinchhabra21/ESP32.git
    cd ESP32
 
 # Why HAL?
